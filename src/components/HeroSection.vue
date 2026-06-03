@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col lg:flex-row items-center justify-between gap-16">
+  <section id="home" class="flex flex-col lg:flex-row items-center justify-between gap-16">
     <div class="glass rounded-3xl p-10 transition-all duration-300 card-hover max-w-2xl">
       <h1 class="text-5xl md:text-7xl font-extrabold leading-tight">
         {{ t.heroIntro }}

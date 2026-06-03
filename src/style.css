@@ -67,3 +67,23 @@ body {
 .card-hover {
   transition: all 0.5s ease;
 }
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.tech-card {
+  min-height: 260px;
+}
+
+.tech-card h3 {
+  color: var(--text-color);
+}
+
+.tech-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #38bdf8;
+}
